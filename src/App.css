@@ -3,3 +3,23 @@ body{
   padding: 0;
 
 }
+.home{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: #f9f9f9;
+  flex-direction: column;
+}
+.button-div{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+.operator{
+  padding: 10px 15px;
+  background: #f9f9f9;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-size: 20px;
+}
