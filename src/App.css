@@ -1,25 +1,65 @@
-body{
-  margin: 0;
-  padding: 0;
+/* App.css */
 
+.home {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
-.home{
-  display: flex;
-  align-items: center;
-  height: 100vh;
-  background: #f9f9f9;
-  flex-direction: column;
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
 }
-.button-div{
+
+p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.but {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.but:hover {
+  background-color: #0056b3;
+}
+
+.button-div {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 20px;
-
 }
-.operator{
-  padding: 10px 15px;
-  background: #f9f9f9;
-  border: 1px solid #000;
+
+.operator {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.5rem;
   cursor: pointer;
-  font-size: 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.operator:hover {
+  background-color: #218838;
+}
+
+.value {
+  font-size: 2rem;
+  margin: 0 20px;
+  padding: 10px 20px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  color: #333;
 }
