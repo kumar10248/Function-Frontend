@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
-import './App.css';
-import abi from '../artifacts/contracts/Frontend.sol/Frontend.json';
-import { ethers } from 'ethers';
+import { useState, useEffect } from "react";
+import "./App.css";
+import abi from "../artifacts/contracts/Frontend.sol/Frontend.json";
+import { ethers } from "ethers";
 
 function App() {
   const [currentAccount, setCurrentAccount] = useState("");
@@ -32,7 +32,11 @@ function App() {
       if (ethereum) {
         const provider = new ethers.BrowserProvider(ethereum);
         const signer = await provider.getSigner();
-        const abiContract = new ethers.Contract(ContractAddress, abi.abi, signer);
+        const abiContract = new ethers.Contract(
+          ContractAddress,
+          abi.abi,
+          signer
+        );
 
         let tx = await abiContract.increment();
         await tx.wait();
@@ -51,7 +55,11 @@ function App() {
       if (ethereum) {
         const provider = new ethers.BrowserProvider(ethereum);
         const signer = await provider.getSigner();
-        const abiContract = new ethers.Contract(ContractAddress, abi.abi, signer);
+        const abiContract = new ethers.Contract(
+          ContractAddress,
+          abi.abi,
+          signer
+        );
 
         let tx = await abiContract.decrement();
         await tx.wait();
@@ -70,7 +78,11 @@ function App() {
       if (ethereum) {
         const provider = new ethers.BrowserProvider(ethereum);
         const signer = await provider.getSigner();
-        const abiContract = new ethers.Contract(ContractAddress, abi.abi, signer);
+        const abiContract = new ethers.Contract(
+          ContractAddress,
+          abi.abi,
+          signer
+        );
 
         let tx = await abiContract.get();
         setValue(Number(tx)); // Assuming the returned value is a BigNumber
@@ -87,22 +99,28 @@ function App() {
     if (currentAccount) {
       getValue();
     }
-  }, [currentAccount,increment,decrement]);
+  }, [currentAccount, increment, decrement]);
 
   return (
-    <div className='home'>
+    <div className="home">
       <h1>Function Frontend</h1>
       <p>This is a project to demonstrate the use of blockchain technology.</p>
       {!currentAccount && (
-        <button className='but' onClick={connectWallet}>Connect To Wallet</button>
+        <button className="but" onClick={connectWallet}>
+          Connect To Wallet
+        </button>
       )}
       {currentAccount && (
         <div>
           <h3>{currentAccount}</h3>
-          <div className='button-div'>
-            <button className='operator' onClick={decrement}>-</button>
-            <div className='value'>{value}</div>
-            <button className='operator' onClick={increment}>+</button>
+          <div className="button-div">
+            <button className="operator" onClick={decrement}>
+              -
+            </button>
+            <div className="value">{value}</div>
+            <button className="operator" onClick={increment}>
+              +
+            </button>
           </div>
         </div>
       )}

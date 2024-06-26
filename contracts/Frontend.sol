@@ -4,7 +4,6 @@ pragma solidity ^0.8.0;
 contract Frontend {
     uint256 private value;
 
-
     // Function to get the value
     function get() public view returns (uint256) {
         return value;
@@ -15,7 +14,7 @@ contract Frontend {
         value += 1;
     }
 
-     function decrement() public {
+    function decrement() public {
         value -= 1;
     }
 }
