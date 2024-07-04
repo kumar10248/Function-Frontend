@@ -92,11 +92,6 @@ This command starts the React application in development mode. Open [http://loca
 
 Below is a screenshot of the frontend application:
 
-![Frontend Screenshot]
-(https://drive.usercontent.google.com/download?id=1CzugxLXKKg0P9RzT3KTCL3NtIgci8m47&authuser=0)
-
-(https://drive.google.com/file/d/1skqbogGB5rgLWTwX-GL6TNZv8HrZcVyQ/view?usp=sharing)
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request.
