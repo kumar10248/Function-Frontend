@@ -62,7 +62,13 @@ This command starts the React application in development mode. Open [http://loca
 
 Below is a screenshot of the frontend application:
 
-## Contributing
+4-07-04 19482![Screenshot 2024-07-04 194820](https://github.com/kumar10248/Function-Frontend/assets/142513742/eaf8e8c5-bc44-444d-be3e-2b8bd76860d9)
+0](https://github.com/kumar10248/Function-Frontend/assets/142513742/b03be530-b805-4553-99e4-e5dab58e4036)
+
+
+## Contributing![Screenshot 202![Screenshot 2024-07-04 194907](https://github.com/kumar10248/Function-Frontend/assets/142513742/dcd43954-cc21-4dd2-91be-a90cebe1959e)
+
+
 
 Contributions are welcome! Please feel free to submit a pull request.
 
