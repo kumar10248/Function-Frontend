@@ -25,36 +25,6 @@ git clone <repository-url>
 cd evm-course-2
 npm install
 
-To update your [`README.md`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2Fkumar%2FContacts%2FDesktop%2FEVM_Course-2%2FREADME.md%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\Users\kumar\Contacts\Desktop\EVM_Course-2\README.md") file with an image from your own URL, you can follow the template below. Replace `<your-image-url>` with the actual URL of the image you want to include:
-
-```md
-# EVM Course Project
-
-This project is a comprehensive Ethereum Virtual Machine (EVM) course example, showcasing the integration of Solidity smart contracts with a React frontend, managed through Hardhat.
-
-## Features
-
-- **Smart Contract Development**: Utilizes Solidity for the smart contract ([`Frontend.sol`](contracts/Frontend.sol)) with a simple increment functionality.
-- **Frontend Integration**: React-based frontend to interact with the smart contract.
-- **Development Environment**: Configured with Hardhat for compiling, deploying, and testing the smart contracts.
-- **Testing**: Includes tests for smart contracts using Hardhat's testing framework.
-
-## Prerequisites
-
-Before you begin, ensure you have installed:
-
-- [Node.js](https://nodejs.org/) (version 14 or later)
-- [npm](https://www.npmjs.com/)
-
-## Installation
-
-Clone the repository and install the dependencies:
-
-```sh
-git clone <https://github.com/kumar10248/Function-Frontend.git>
-cd evm-course-2
-npm install
-```
 
 ## Running the Project
 
